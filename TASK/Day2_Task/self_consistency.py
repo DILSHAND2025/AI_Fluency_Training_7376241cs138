@@ -3,8 +3,8 @@ import re
 import sys
 from collections import Counter
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-DAY1_DIR = os.path.join(ROOT_DIR, "DAY1")
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DAY1_DIR = os.path.join(ROOT_DIR, "LAB", "Day1_TRANING")
 for path in (ROOT_DIR, DAY1_DIR):
     if path not in sys.path:
         sys.path.insert(0, path)

@@ -16,7 +16,6 @@ for path in (ROOT_DIR, DAY1_DIR, DAY2_TASK_DIR):
     if path not in sys.path:
         sys.path.insert(0, path)
 
-from config import ask_model
 from inventory_tools import inventory_snapshot, reorder_quantity, stock_status
 
 
