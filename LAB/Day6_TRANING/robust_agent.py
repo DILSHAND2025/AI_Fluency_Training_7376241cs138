@@ -2,7 +2,7 @@
 import json
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "Day_1"))
+sys.path.append(str(Path(__file__).parent.parent / "Day1_TRANING"))
 from config import client, MODEL, banner
 from tools_v2 import TOOLS, TOOL_FUNCTIONS, SCHEMAS
 from validate import validate_arguments

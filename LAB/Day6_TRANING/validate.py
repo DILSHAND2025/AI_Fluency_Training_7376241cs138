@@ -1,7 +1,7 @@
 """Day 6: check tool arguments against the JSON Schema before calling the function."""
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "Day_1"))
+sys.path.append(str(Path(__file__).resolve().parent.parent / "Day1_TRANING"))
 import config
 
 TYPES = {"string": str, "number": (int, float), "integer": int,
